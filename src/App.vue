@@ -1,15 +1,21 @@
 <template>
+
+<navbar-vue></navbar-vue>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="WENA Cabrosss"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import navbarVue from './components/navbar.vue'
+import 'bootstrap'; 
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    navbarVue
   }
 }
 </script>
