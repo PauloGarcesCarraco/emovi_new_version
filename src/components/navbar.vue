@@ -41,9 +41,10 @@ export default {
 }
 </script>
 <style scoped>
-.navbar{
-     position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+nav{
+    margin-top: 0;
+    text-align: center;
+    padding-left: 10%;
 }
+
 </style>
