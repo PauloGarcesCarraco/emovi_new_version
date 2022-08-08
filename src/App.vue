@@ -3,6 +3,7 @@
 <navbar-vue></navbar-vue>
   <img alt="Vue logo" src="./assets/images/logo.png">
   <HelloWorld msg="WENA Cabrosss"/>
+  <calculadora-carga-vue></calculadora-carga-vue>
 <footer-vue></footer-vue>
 </template>
 
@@ -10,6 +11,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import navbarVue from './components/navbar.vue'
 import footerVue from './components/footer.vue';
+import CalculadoraCargaVue from './components/Calculadora-carga.vue';
 import 'bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -18,7 +20,8 @@ export default {
   components: {
     HelloWorld,
     navbarVue,
-    footerVue
+    footerVue,
+    CalculadoraCargaVue
   }
 }
 </script>
