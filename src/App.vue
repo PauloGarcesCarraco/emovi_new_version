@@ -1,7 +1,7 @@
 <template>
 
 <navbar-vue></navbar-vue>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/images/logo.png">
   <HelloWorld msg="WENA Cabrosss"/>
 <footer-vue></footer-vue>
 </template>
